@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Bonavista</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div  id="tornar">
+        <a href="../index.html"><button id="tornarCV">Tornar al currículum</button></a>
+    </div>
+    <header>
+        <h1>HOTEL BONAVISTA</h1>
+        <div>
+            <fieldset  id="temperatura">
+                <img src="img/weather.png" alt="icono el Tiempo" id="tiempo">
+                <h5>El temps que ens acompanya avui:</h5>
+                <div id="info">
+                    <p id="ciutat"> </p>
+                    <p id="tempsmin"> </p>
+                    <p id="tempsmax"> </p>                    
+                    <p id="nuvols"> </p>
+                </div>
+            </fieldset>    
+        </div>
+        <br><br>
+        <h2>RESERVA ONLINE</h2>
+    </header>
+
+
+
+    <form action="basedades.html" method="get" id="formulari">
+
+        <h3>Nom i cognoms</h3>
+        <input type="text" name="nom" id="nom" pattern="[a-zA-Z\s]*$" required autofocus>
+
+        <h3>Indica les dates en que vols allotjar-te</h3>
+
+        <div id="calendari">
+            <div>
+                <label for="entrada">Data d'entrada</label>
+                <input type="date" name="entrada" id="entrada" min="2024-07-01" max="2025-07-31" class="entrar" required>
+
+            </div>
+
+            <div>
+                <label for="sortida">Data de sortida</label>
+                <input type="date" name="sortida" id="sortida" min="2024-07-01" max="2025-07-31" class="sortir" required>
+
+            </div>
+        </div>
+
+        <h3>Indica el nombre de persones per habitació</h3>
+
+        <div id="hostes">
+
+            <label for="adults">Adults</label>
+            <input type="number" name="adults" id="adults" min="1" max="2" required>
+
+            <label for="infants">Infants fins a 12 anys</label>
+            <input type="number" name="infants" id="infants" min="1" max="2" >
+
+        </div>
+
+        <h3>Indica quin tipus d'habitació desitges</h3>
+
+            <select name="tipus" id="tipus" required>
+                <option value=""></option>
+                <option value="individual">Habitació individual</option>
+                <option value="doble">Habitació doble</option>
+                <option value="tripe">Habitació triple</option>
+                <option value="quadruple">Habitació quadruple</option>
+                <option value="suite">Habitació suite</option>
+            </select>
+
+        <h3>Indica quin tipus d'allotjament</h3>
+
+            <fieldset class="requadre">
+
+                <legend>Selecciona règim d'allotjament:</legend>
+            
+                <div>
+                <input type="radio" id="na" name="allotjament" value="na" checked />
+                <label for="na">Només allotjament</label>
+                </div>
+        
+                <div>
+                <input type="radio" id="ae" name="allotjament" value="ae" />
+                <label for="ae">Allotjament i esmorzar</label>
+                </div>
+            
+                <div>
+                <input type="radio" id="mp" name="allotjament" value="mp" />
+                <label for="mp">Mitja pensió</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="pc" name="allotjament" value="pc" />
+                    <label for="pc">Pensió complerta</label>
+                </div>
+
+            </fieldset>
+
+        <h3>Opcions extres</h3>
+            
+            <fieldset  class="requadre">
+
+                <input type="checkbox" name="bressol" id="bressol">
+                <label for="bressol">Necessito bressol</label>
+
+                <input type="checkbox" name="parking" id="parking">
+                <label for="parking">Necessito parking</label>
+
+                <input type="checkbox" name="gos" id="gos">
+                <label for="gos">Vinc amb el gos</label>
+
+            </fieldset>
+
+            <hr>
+
+        <div class="enviar">
+            <button type="submit">Enviar</button>
+        </div>
+
+    </form>
+
+    <br>
+
+    <h6>© Inma Via Alegre 2024</h6>
+    <script src="main.js"></script>
+</body>
+</html>
