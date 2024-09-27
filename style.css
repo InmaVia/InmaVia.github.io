@@ -98,7 +98,7 @@ header{
 }
 
 .treball{
-    width: 110px;
+    width:110px;
     height: 110px;
     border-radius: 50%;
 }
@@ -144,8 +144,8 @@ header{
 }
 
 .bandera{
-    width: 30px;
-    height: 18px;
+    width: 35px;
+    height: 20px;
     border-radius: 0px;
     margin-top:10px;
 }
@@ -229,10 +229,6 @@ ul {
     h5{
         font-size:20px;
     }
-
-    h6{
-        font-size:12px;
-    }
     
     #yo{
         width:220px;
@@ -265,7 +261,6 @@ ul {
     }
     
     .idioma{
-        font-size:20px;
         width: 20%;
         height: 200px;
     }
@@ -277,7 +272,7 @@ ul {
     }
     
     .nivell{
-        font-size:20px;
+        font-size:16px;
     }
         
     li a {
