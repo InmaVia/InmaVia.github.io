@@ -98,8 +98,8 @@ header{
 }
 
 .treball{
-    width:90px;
-    height: 90px;
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
 }
 
@@ -272,7 +272,7 @@ ul {
     }
     
     .nivell{
-        font-size:16px;
+        font-size:20px;
     }
         
     li a {
