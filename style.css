@@ -41,7 +41,7 @@ h5{
 }
 
 h6{
-    font-size:12px;
+    font-size:11px;
     text-align: center;
 }
 
@@ -229,6 +229,10 @@ ul {
     h5{
         font-size:20px;
     }
+
+    h6{
+        font-size:14px;
+    }
     
     #yo{
         width:220px;
@@ -326,6 +330,7 @@ ul {
     }
     
     h6{
+        font-size: 16px;
         text-align: center;
     }
 
@@ -369,8 +374,8 @@ ul {
      }
     
     .bandera{
-        width: 80px;
-        height: 50px;
+        width: 90px;
+        height: 55px;
         border-radius: 0px;
         margin-top:15px;
     }
