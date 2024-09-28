@@ -195,7 +195,7 @@ ul {
     align-items: center;
   }
   
-@media screen and (min-width:501px) and (max-width:1000px){
+@media screen and (min-width:451px) and (max-width:1100px){
 
     body{
         width:95%;
@@ -293,7 +293,7 @@ ul {
 
 }
 
-@media screen and (min-width:1001px) {
+@media screen and (min-width:1101px) {
 
     body{
         width:80%;
