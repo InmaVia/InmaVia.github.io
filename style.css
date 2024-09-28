@@ -261,12 +261,12 @@ ul {
        
     #container{
         width: 90%;
-        height: 220px;
+        height: 280px;
     }
     
     .idioma{
         width: 20%;
-        height: 200px;
+        height: 250px;
     }
     
     .bandera{
@@ -359,12 +359,12 @@ ul {
     
     .treball:hover{
         width: 320px;
-        height: 320px;
+        height: 380px;
     }
        
     #container{
         width: 80%;
-        height: 280px;
+        height: 340px;
         justify-content: space-around;
     }
     
