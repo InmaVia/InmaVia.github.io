@@ -143,6 +143,10 @@ header{
     padding:2px;
 }
 
+    #catala{
+        margin-top: 15px;
+    }
+
 .bandera{
     width: 35px;
     height: 20px;
@@ -269,6 +273,10 @@ ul {
         height: 200px;
     }
 
+        #catala{
+        margin-top: -10px;
+    }
+    
     .bandera{
         width: 65px;
         height: 40px;
