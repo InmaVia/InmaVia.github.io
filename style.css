@@ -261,7 +261,7 @@ ul {
        
     #container{
         width: 90%;
-        height: 280px;
+        height: 270px;
     }
     
     .idioma{
@@ -364,13 +364,13 @@ ul {
        
     #container{
         width: 80%;
-        height: 340px;
+        height: 300px;
         justify-content: space-around;
     }
     
     .idioma{
         width: 20%;
-        height: 250px;
+        height: 270px;
      }
     
     .bandera{
