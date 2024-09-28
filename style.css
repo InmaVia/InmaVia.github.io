@@ -143,10 +143,6 @@ header{
     padding:2px;
 }
 
-    #catala{
-        margin-top: 15px;
-    }
-
 .bandera{
     width: 35px;
     height: 20px;
@@ -272,10 +268,6 @@ ul {
         width: 20%;
         height: 200px;
     }
-
-        #catala{
-        margin-top: -10px;
-    }
     
     .bandera{
         width: 65px;
@@ -372,13 +364,13 @@ ul {
        
     #container{
         width: 80%;
-        height: 240px;
+        height: 280px;
         justify-content: space-around;
     }
     
     .idioma{
         width: 20%;
-        height: 220px;
+        height: 250px;
      }
     
     .bandera{
